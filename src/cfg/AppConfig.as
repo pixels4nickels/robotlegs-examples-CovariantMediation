@@ -4,8 +4,8 @@ package cfg
 
 	import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 
-	import views.ScoreProvider;
-	import views.StatusProvider;
+	import views.impl.ScoreProvider;
+	import views.impl.StatusProvider;
 	import views.api.IScoreProvider;
 	import views.api.IStatusProvider;
 

@@ -1,7 +1,5 @@
 package views.impl
 {
-	import actions.TestSignal;
-
 	import robotlegs.bender.bundles.mvcs.Mediator;
 
 	import views.api.*;
@@ -13,7 +11,7 @@ package views.impl
 
 		public function StatusProvider()
 		{
-			trace( "can we exist?" );
+
 		}
 
 		override public function initialize():void

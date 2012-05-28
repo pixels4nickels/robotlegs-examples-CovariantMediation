@@ -8,7 +8,6 @@ package cfg
 	import robotlegs.bender.extensions.logging.LoggingExtension;
 	import robotlegs.bender.extensions.logging.TraceLoggingExtension;
 	import robotlegs.bender.extensions.mediatorMap.MediatorMapExtension;
-	import robotlegs.bender.extensions.signalCommandMap.SignalCommandMapExtension;
 	import robotlegs.bender.extensions.stageSync.StageSyncExtension;
 	import robotlegs.bender.extensions.viewManager.StageObserverExtension;
 	import robotlegs.bender.extensions.viewManager.ViewManagerExtension;
@@ -30,8 +29,8 @@ package cfg
 				LocalEventMapExtension,
 				ViewManagerExtension,
 				StageObserverExtension,
-				MediatorMapExtension,
-				SignalCommandMapExtension );
+				MediatorMapExtension
+				);
 			context.configure( ContextViewListenerConfig );
 		}
 	}

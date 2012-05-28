@@ -1,9 +1,7 @@
 package views.impl
 {
-	import actions.TestSignal;
-	
 	import robotlegs.bender.bundles.mvcs.Mediator;
-	
+
 	import views.api.*;
 
 	public class ScoreProvider extends Mediator

@@ -1,6 +1,5 @@
 package views.api
 {
-	import actions.TestSignal;
 
 	public interface IStatusProvider
 	{
