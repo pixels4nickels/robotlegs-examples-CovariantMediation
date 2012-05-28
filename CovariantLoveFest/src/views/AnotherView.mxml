@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<s:TitleWindow xmlns:fx = "http://ns.adobe.com/mxml/2009"
+			   xmlns:s = "library://ns.adobe.com/flex/spark"
+			   xmlns:mx = "library://ns.adobe.com/flex/mx"
+			   implements = "views.api.IScoreProvider, views.api.IStatusProvider"
+			   title = "Another View">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+
+			public function set statusMessage( value:String ):void
+			{
+				statusMessageTxt.text = "Status: " + value;
+			}
+
+			public function set averageScore( value:uint ):void
+			{
+				averageScoreTxt.text = "Average Score: " + String( value );
+			}
+
+			public function set highScore( value:uint ):void
+			{
+				highScoreTxt.text = "High Score: " + String( value );
+			}
+
+			public function set lowScore( value:uint ):void
+			{
+				lowScoreTxt.text = "Low Score: " + String( value );
+			}
+		]]>
+	</fx:Script>
+	<s:layout>
+		<s:VerticalLayout gap = "10"
+						  paddingBottom = "5"
+						  paddingLeft = "5"
+						  paddingRight = "5"
+						  paddingTop = "5" />
+	</s:layout>
+	<s:Label id = "statusMessageTxt"
+			 width = "150" />
+	<s:Label id = "highScoreTxt"
+			 width = "150" />
+	<s:Label id = "lowScoreTxt"
+			 width = "150" />
+	<s:Label id = "averageScoreTxt"
+			 width = "150" />
+</s:TitleWindow>
