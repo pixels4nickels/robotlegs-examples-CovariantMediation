@@ -1,4 +1,4 @@
-package views.impl
+package behaviours.scores
 {
 	import robotlegs.bender.bundles.mvcs.Mediator;
 
@@ -7,7 +7,7 @@ package views.impl
 	public class ScoreProvider extends Mediator
 	{
 		[Inject]
-		public var view:IScoreProvider;
+		public var view:IScoreDisplayable;
 
 		private var highScore:uint = 500;
 		private var lowScore:uint = 20;

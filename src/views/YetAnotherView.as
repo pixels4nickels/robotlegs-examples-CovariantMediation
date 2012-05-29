@@ -4,9 +4,9 @@ package views
 	import spark.components.TitleWindow;
 	import spark.layouts.VerticalLayout;
 	
-	import views.api.IStatusProvider;
+	import behaviours.status.IStatusDisplayable;
 
-	public class YetAnotherView extends TitleWindow implements IStatusProvider
+	public class YetAnotherView extends TitleWindow implements IStatusDisplayable
 	{
 
 		public var statusMessageTxt:Label;

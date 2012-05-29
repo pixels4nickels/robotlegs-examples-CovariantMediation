@@ -1,4 +1,4 @@
-package views.impl
+package behaviours.status
 {
 	import robotlegs.bender.bundles.mvcs.Mediator;
 
@@ -7,7 +7,7 @@ package views.impl
 	public class StatusProvider extends Mediator
 	{
 		[Inject]
-		public var view:IStatusProvider;
+		public var view:IStatusDisplayable;
 
 		public function StatusProvider()
 		{

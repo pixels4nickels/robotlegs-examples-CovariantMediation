@@ -1,4 +1,4 @@
-package cfg
+package config
 {
 	import robotlegs.bender.bundles.shared.configs.ContextViewListenerConfig;
 	import robotlegs.bender.extensions.commandMap.CommandMapExtension;

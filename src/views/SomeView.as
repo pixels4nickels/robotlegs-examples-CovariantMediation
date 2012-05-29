@@ -4,10 +4,10 @@ package views
 	import spark.components.Label;
 	import spark.components.TitleWindow;
 	import spark.layouts.VerticalLayout;
-	
-	import views.api.IScoreProvider;
 
-	public class SomeView extends TitleWindow implements IScoreProvider
+	import behaviours.scores.IScoreDisplayable;
+
+	public class SomeView extends TitleWindow implements IScoreDisplayable
 	{
 		public var highScoreTxt:Label;
 		public var lowScoreTxt:Label;

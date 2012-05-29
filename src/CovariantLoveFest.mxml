@@ -2,7 +2,7 @@
 <s:Application xmlns:fx = "http://ns.adobe.com/mxml/2009"
 			   xmlns:s = "library://ns.adobe.com/flex/spark"
 			   xmlns:mxml = "robotlegs.bender.mxml.*"
-			   xmlns:cfg = "cfg.*"
+			   xmlns:config = "config.*"
 			   xmlns:views = "views.*"
 			   minWidth = "955"
 			   minHeight = "600"
@@ -28,8 +28,8 @@
 	<fx:Declarations>
 		<mxml:ContextBuilderTag id = "contextTag"
 								contextView = "{this}">
-			<cfg:AppBundle />
-			<cfg:AppConfig />
+			<config:AppBundle />
+			<config:AppConfig />
 		</mxml:ContextBuilderTag>
 	</fx:Declarations>
 	<s:layout>
@@ -39,6 +39,6 @@
 						  paddingRight = "5"
 						  paddingTop = "5" />
 	</s:layout>
-	<views:SomeView/>
+	<views:SomeView />
 	<views:AnotherView />
 </s:Application>

@@ -1,7 +1,7 @@
-package views.api
+package behaviours.scores
 {
 
-	public interface IScoreProvider
+	public interface IScoreDisplayable
 	{
 		function set highScore( value:uint ):void;
 		function set lowScore( value:uint ):void;
