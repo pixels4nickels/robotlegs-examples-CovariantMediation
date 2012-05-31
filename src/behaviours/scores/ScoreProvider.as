@@ -2,8 +2,6 @@ package behaviours.scores
 {
 	import robotlegs.bender.bundles.mvcs.Mediator;
 
-	import views.api.*;
-
 	public class ScoreProvider extends Mediator
 	{
 		[Inject]

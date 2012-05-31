@@ -2,8 +2,6 @@ package behaviours.status
 {
 	import robotlegs.bender.bundles.mvcs.Mediator;
 
-	import views.api.*;
-
 	public class StatusProvider extends Mediator
 	{
 		[Inject]
