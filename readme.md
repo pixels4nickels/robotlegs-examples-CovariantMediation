@@ -2,27 +2,8 @@
 
 This is an example of using covariant mediation through the mapping of interfaces. This example uses the new Robotlegs2 framework (swc included for ease of use)
 
-## Structure
-
-* src
-  * config
-     * AppBundle.as
-     * AppConfig.as
-  * behaviours
-     * scores
-         * IScoreDisplayable.as
-         * ScoreProvider.as
-     * status
-         * IStatusDisplayable.as
-         * StatusProvider.as
-  * view
-      * AnotherView.mxml 
-      * SomeView.as      
-      * YetAnotherView.as 
-
 
 ## Overview
-
 
 This example shows how to dynamically create mediators for each interface that a view implements. This allows us to use multiple mediators for a given view, allowing for a single responsibility type approach(SOLID).
 
