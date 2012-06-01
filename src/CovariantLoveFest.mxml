@@ -27,18 +27,17 @@
 		]]>
 	</fx:Script>
 	<fx:Declarations>
-		<mxml:ContextBuilderTag id = "contextTag"
-								contextView = "{this}">
+		<mxml:ContextBuilderTag id = "contextTag" contextView = "{this}">
 			<bundles:MVCSBundle />
 			<config:AppConfig />
 		</mxml:ContextBuilderTag>
 	</fx:Declarations>
 	<s:layout>
 		<s:VerticalLayout gap = "10"
-						  paddingBottom = "5"
-						  paddingLeft = "5"
-						  paddingRight = "5"
-						  paddingTop = "5" />
+			paddingBottom = "5"
+			paddingLeft = "5"
+			paddingRight = "5"
+			paddingTop = "5" />
 	</s:layout>
 	<views:SomeView />
 	<views:AnotherView />
