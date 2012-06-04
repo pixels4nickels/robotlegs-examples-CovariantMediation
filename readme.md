@@ -1,4 +1,4 @@
-# CovariantLoveFest
+# Covariant Mediation Example
 
 This is an example of using covariant mediation through the mapping of interfaces. This example uses the new Robotlegs2 framework (swc included for ease of use)
 
